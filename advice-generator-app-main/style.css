@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+  color: #fff;
+  padding: 2em;
+  transform: all 1s;
+}
+
+h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 1rem;
+
+}
+
+.adviceText {
+  color: hsl(193, 38%, 86%);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 1em;
+
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.iconDice {
+  padding: 1em;
+  background-color: hsl(150, 100%, 66%);
+}
+
+table {
+  color: #fff;
+}
